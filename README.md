@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SAVORA: Recipe Website 🍃
 
-## Getting Started
+> **Good food brings people together. Every recipe has a story.**
 
-First, run the development server:
+SAVORA is a modern, responsive recipe website built with **Next.js, React, and Tailwind CSS**. It lets users browse a collection of recipes, open detailed recipe pages, and find cooking inspiration through a clean, easy-to-use interface.
+
+It is also my **first project built with Next.js**, and my first step beyond traditional front-end development into React and the Next.js ecosystem.
+
+🎬 **Live Demo:** [View SAVORA](YOUR_VERCEL_URL)
+<br/>
+## Preview
+<!-- Add a project screenshot below -->
+
+<img width="1536" alt="SAVORA preview" src="YOUR_SCREENSHOT_URL" />
+
+
+<!-- Add a project screenshot below -->
+<!--
+<img width="1536" alt="SAVORA preview" src="YOUR_SCREENSHOT_URL" />
+-->
+
+## Concept
+
+Finding a recipe should be as enjoyable as cooking it. SAVORA pairs a warm, food-focused visual style with practical recipe information, from browsing meals to reading ingredients and step-by-step instructions.
+
+The project was equally a way to learn how modern front-end applications are structured: how data is fetched from APIs, how routes are generated dynamically, and how reusable components combine into a complete experience.
+
+## Features
+
+- **Home page:** A welcoming landing page with featured recipes and food inspiration.
+- **Recipe collection:** Browse recipes fetched from an external API.
+- **Recipe details:** View ingredients, cooking instructions, and extra information on each recipe's own page.
+- **Dynamic routing:** Dedicated pages for every recipe, generated from route segments.
+- **Responsive layout:** A consistent experience on desktop, tablet, and mobile.
+- **Reusable components:** Shared layout pieces such as the header and footer.
+- **Modern UI:** A clean interface with a warm color palette.
+
+## What I Practiced
+
+- **Next.js fundamentals:** App Router, layouts, pages, and file-based routing.
+- **Server Components:** How server-side rendering works in Next.js.
+- **Dynamic routing:** Building individual recipe pages with dynamic route segments.
+- **API integration:** Fetching and displaying data from the DummyJSON Recipes API.
+- **Asynchronous JavaScript:** Handling requests with `async/await`.
+- **Optimization and navigation:** `next/image` for optimized images and `next/link` for client-side navigation.
+- **React components:** Splitting the UI into small, reusable, maintainable parts.
+- **Tailwind CSS:** Utility-first styling and responsive design.
+- **UI fundamentals:** Visual hierarchy, spacing, typography, and consistency across pages.
+
+## Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![DummyJSON](https://img.shields.io/badge/DummyJSON-323330?style=for-the-badge)
+
+| Area | Technology |
+| --- | --- |
+| Framework | [Next.js](https://nextjs.org/) |
+| UI library | [React](https://react.dev/) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) |
+| Data | [DummyJSON Recipes API](https://dummyjson.com/recipes) |
+
+## How It Works
+
+| Step | What happens |
+| --- | --- |
+| 1. Browse | Users explore the recipe collection. |
+| 2. Fetch | Next.js fetches recipe data from the DummyJSON API. |
+| 3. Display | Recipes are rendered dynamically on the page. |
+| 4. Explore | Selecting a recipe opens its dedicated detail page. |
+| 5. Discover | Users read the ingredients, instructions, and recipe info. |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/FtmDhn/savora-recipe-website.git
+cd savora-recipe-website
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [ ] Functional recipe search
+- [ ] Filtering by cuisine and meal type
+- [ ] Pagination for larger collections
+- [ ] Favorites feature to save recipes
+- [ ] Better loading states and error handling
+- [ ] Skeleton loaders
+- [ ] Improved accessibility and keyboard navigation
+- [ ] Performance and image-loading optimizations
+- [ ] Additional API sources for a larger recipe collection
 
-## Learn More
+## Developer
 
-To learn more about Next.js, take a look at the following resources:
+**Fatemeh Dehghani**, Junior Front-End Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm a Computer Engineering graduate who enjoys building clean, responsive, user-friendly web experiences. SAVORA is my first Next.js project, and through it I learned to work with APIs, build reusable components, and understand how modern web applications fit together. I'm always learning and open to new opportunities to grow as a developer.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[![GitHub](https://img.shields.io/badge/GitHub-FtmDhn-181717?style=for-the-badge&logo=github)](https://github.com/FtmDhn)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fatemeh%20Dehghani-0A66C2?style=for-the-badge&logo=linkedin)](https://ir.linkedin.com/in/fatemeh-dehghani-060973314)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <b>Discover. Cook. Enjoy. 🍃</b>
+  <br>
+  <sub>My first step into Next.js, with many more projects to come.</sub>
+</div>
