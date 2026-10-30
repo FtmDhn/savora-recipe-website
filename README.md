@@ -6,7 +6,7 @@ SAVORA is a modern, responsive recipe website built with **Next.js, React, and T
 
 It is also my **first project built with Next.js**, and my first step beyond traditional front-end development into React and the Next.js ecosystem.
 
-🎬 **Live Demo:** [View SAVORA](YOUR_VERCEL_URL)
+🎬 **Live Demo:** [View Website](https://savora-recipe-website-three.vercel.app/)
 <br/>
 ## Preview
 <!-- Add a project screenshot below -->
