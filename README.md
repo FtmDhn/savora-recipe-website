@@ -115,6 +115,7 @@ I'm a Computer Engineering graduate who enjoys building clean, responsive, user-
 
 [![GitHub](https://img.shields.io/badge/GitHub-FtmDhn-181717?style=for-the-badge&logo=github)](https://github.com/FtmDhn)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Fatemeh%20Dehghani-0A66C2?style=for-the-badge&logo=linkedin)](https://ir.linkedin.com/in/fatemeh-dehghani-060973314)
+[![Instagram](https://img.shields.io/badge/Instagram-@ftm.dehgni-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/ftm.dehgni)
 
 ---
 
