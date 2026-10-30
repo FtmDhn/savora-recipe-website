@@ -3,6 +3,7 @@ import Header from '../component/header'
 import Footer from "../component/footer"
 import Image from "next/image"
 import Link from 'next/link'
+import { Suspense } from 'react'
 
 async function getData(api) {
     let x = await fetch(api, {
@@ -18,15 +19,22 @@ async function getData(api) {
     throw new Error("Failed to fetch recipes");
 }
 
-export default async function page({ params }) {
+export default function Page({ params }) {
+    return (
+        <Suspense fallback={<div>Loading recipe...</div>}>
+            <RecipePage params={params} />
+        </Suspense>
+    )
+}
 
-    const mySlug = await params;
-    const temp = await getData(
-        'https://dummyjson.com/recipes/' + parseInt(mySlug.slug)
-    );
+async function RecipePage({ params }) {
+
+    const mySlug = await params
+
+    const temp = await getData('https://dummyjson.com/recipes/' + parseInt(mySlug.slug))
 
     return (
-        <>
+       <>
             <Header />
 
             <main className="bg-[#FAF8F2] text-[#25483B]">
