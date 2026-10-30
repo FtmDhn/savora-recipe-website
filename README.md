@@ -11,7 +11,7 @@ It is also my **first project built with Next.js**, and my first step beyond tra
 ## Preview
 <!-- Add a project screenshot below -->
 
-<img width="1536" alt="SAVORA preview" src="YOUR_SCREENSHOT_URL" />
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/e8c10205-7163-418a-b06d-a56c523e0f47" />
 
 
 <!-- Add a project screenshot below -->
